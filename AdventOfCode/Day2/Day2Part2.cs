@@ -1,6 +1,6 @@
 ﻿public class Day2Part2 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         Dictionary<string, Shape> shapeMap = new Dictionary<string, Shape>()
         {
@@ -21,7 +21,7 @@
             else if (opponent == Shape.Scissors)
                 score += round[1] == "Z" ? ((int)Shape.Rock + 6) : ((int)Shape.Paper);
         }
-        return score;
+        return score.ToString();
     }
 
     enum Shape

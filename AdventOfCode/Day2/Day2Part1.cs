@@ -1,6 +1,6 @@
 ﻿public class Day2Part1 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         Dictionary<string, Shape> shapeMap = new Dictionary<string, Shape>()
         {
@@ -23,7 +23,7 @@
                 score += 6;
             }
         }
-        return score;
+        return score.ToString();
 
     }
 

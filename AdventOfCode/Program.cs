@@ -12,6 +12,8 @@ challenges.Add(new Day3Part2());
 challenges.Add(new Day4Part1());
 challenges.Add(new Day4Part2());
 
+challenges.Add(new Day5Part1());
+
 // Run the Answers
 
 Console.WriteLine(@"  ___      _                 _   _____  __ _____           _      

@@ -1,6 +1,6 @@
 ﻿public class Day1Part1 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         int answer = 0, runningTotal = 0;
         foreach (string line in File.ReadLines(@"./Data/day1.txt"))
@@ -13,6 +13,6 @@
                 runningTotal = 0;
             }
         }
-        return answer;
+        return answer.ToString();
     }
 }

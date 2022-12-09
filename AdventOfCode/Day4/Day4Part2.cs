@@ -1,6 +1,6 @@
 ﻿public class Day4Part2 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         int score = 0;
         foreach (string line in File.ReadLines(@"./data/day4.txt"))
@@ -11,7 +11,7 @@
             if (elf1.Item2 >= elf2.Item1 && elf1.Item1 <= elf2.Item2)
                 score++;
         }
-        return score;
+        return score.ToString();
     }
 
     private (int, int) StartEnd(string input)

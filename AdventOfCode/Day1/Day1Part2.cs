@@ -1,6 +1,6 @@
 ﻿public class Day1Part2 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         int runningTotal = 0;
         List<int> answers = new List<int>();
@@ -14,6 +14,6 @@
                 runningTotal = 0;
             }
         }
-        return answers.OrderByDescending(o => o).Take(3).Sum();
+        return answers.OrderByDescending(o => o).Take(3).Sum().ToString();
     }
 }

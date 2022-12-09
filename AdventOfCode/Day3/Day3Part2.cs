@@ -1,6 +1,6 @@
 ﻿public class Day3Part2 : Challenge
 {
-    public override int Run()
+    public override string Run()
     {
         int score = 0;
         List<string> group = new List<string>();
@@ -20,6 +20,6 @@
                 group.Clear();
             }
         }
-        return score;
+        return score.ToString();
     }
 }

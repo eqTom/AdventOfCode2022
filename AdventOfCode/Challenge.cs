@@ -1,4 +1,4 @@
 ﻿public class Challenge
 {
-    public virtual int Run() => 0;
+    public virtual string Run() => "N/A";
 }
