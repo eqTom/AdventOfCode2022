@@ -1,6 +1,6 @@
 ﻿public class Day1Part2 : Challenge
 {
-    public int Run()
+    public override int Run()
     {
         int runningTotal = 0;
         List<int> answers = new List<int>();
