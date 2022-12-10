@@ -5,8 +5,6 @@
 
     public Dictionary<string, int> TailVisits = new Dictionary<string, int>();
 
-    // 1932 was too low
-
     public override string Run()
     {
         TailVisits.Add(cacheKey(0,0), 1);

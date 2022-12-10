@@ -6,8 +6,6 @@
 
     public Dictionary<string, int> LastTailVisit = new Dictionary<string, int>();
 
-    // 1932 was too low
-
     public override string Run()
     {
         // Start the tails off at home
@@ -36,43 +34,6 @@
             MoveTailsTowardHead();
         }
     }
-
-    //private void display(int turn)
-    //{
-    //    Console.WriteLine($"Turn: {turn}");
-    //    int buffer = 4;
-
-    //    Console.Write("       ");
-    //    for (int i = Head.X - buffer; i < Head.X + buffer; i++)
-    //    {
-    //        string header = $"{i} ";
-    //        if (header.Length < 3) header = " " + header;
-    //        Console.Write(header);
-    //    }
-
-    //    Console.WriteLine();
-
-    //    for (int y = (Head.Y + buffer); y > (Head.Y - buffer); y--)
-    //    {
-    //        string margin = y.ToString();
-    //        margin += new string(' ', 5 - margin.Length);
-    //        Console.Write($"{margin}: ");
-    //        for (int x = (Head.X - buffer); x < (Head.X + buffer); x++)
-    //        {
-    //            if(Head.X == x && Head.Y == y && Tail.X == x && Tail.Y == y)
-    //                Console.Write(" H ");
-    //            else if (Head.X == x && Head.Y == y)
-    //                Console.Write(" h ");
-    //            else if (Tail.X == x && Tail.Y == y)
-    //                Console.Write(" t ");
-    //            else
-    //                if(x == 0 && y == 0) Console.Write(" S ");
-    //                else Console.Write(" - ");
-    //        }
-    //        Console.WriteLine();
-    //    }
-    //    Console.WriteLine();
-    //}
 
     public void MoveTailsTowardHead()
     {
