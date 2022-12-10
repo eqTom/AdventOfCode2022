@@ -13,6 +13,7 @@ challenges.Add(new Day4Part1());
 challenges.Add(new Day4Part2());
 
 challenges.Add(new Day5Part1());
+challenges.Add(new Day5Part2());
 
 // Run the Answers
 
