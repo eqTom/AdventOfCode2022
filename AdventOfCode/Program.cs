@@ -30,7 +30,8 @@
 //challenges.Add(new Day10Part1());
 // challenges.Add(new Day10Part2());
 
-challenges.Add(new Day11Part1());
+// challenges.Add(new Day11Part1());
+challenges.Add(new Day11Part2());
 
 
 // Run the Answers
